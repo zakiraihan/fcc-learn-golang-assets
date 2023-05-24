@@ -11,4 +11,5 @@ func main() {
 
 func incrementSends(sendsSoFar, sendsToAdd int) int {
 	sendsSoFar = sendsSoFar + sendsToAdd
+	return sendsSoFar
 }
